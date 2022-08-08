@@ -3,7 +3,9 @@
      padding: 0;
      box-sizing: border-box;
 }
-
+.blue__container {
+     padding: 5rem;
+}
 .iphone__blue {
      width: 200px;
      height: 250px;
@@ -11,4 +13,16 @@
 .phone__title {
      display: block;
      width: 200px;
+     margin: 0.05rem;
+}
+.rating__star {
+     display: inline-block;
+}
+.invidiual__star {
+     width: 15px;
+     margin-top: 5px;
+}
+.phone__price {
+     display: block;
+     margin-top: 5px;
 }
