@@ -1,0 +1,14 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+.iphone__blue {
+     width: 200px;
+     height: 250px;
+}
+.phone__title {
+     display: block;
+     width: 200px;
+}
