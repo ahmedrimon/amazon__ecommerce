@@ -3,8 +3,20 @@
      padding: 0;
      box-sizing: border-box;
 }
+
+body {
+     scroll-behavior: smooth;
+}
+
+.phone__factory {
+     display: flex;
+}
+
+/* first mobile style */
+
 .blue__container {
-     padding: 5rem;
+     margin-top: 5rem;
+     margin-left: 5rem;
 }
 .iphone__blue {
      width: 200px;
@@ -25,4 +37,26 @@
 .phone__price {
      display: block;
      margin-top: 5px;
+}
+
+/* second mobile style */
+
+.graphite__container {
+     margin-top: 5rem;
+     margin-left: 5rem;
+} 
+.iphone__graphite {
+     width: 200px;
+     height: 250px;
+}
+
+/* third mobile style */
+
+.silver__container {
+     margin-top: 5rem;
+     margin-left: 5rem;
+}
+.iphone__silver {
+     width: 200px;
+     height: 250px;
 }
